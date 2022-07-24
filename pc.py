@@ -36,9 +36,3 @@ def get_task_info(res):
 
 
 print(get_task_info(post_task_id()))
-# print(get_task_info(
-#
-#     get_html('http://www.gdzwfw.gov.cn/portal/api/v2/item-event/getAuditItemDetailCur?TASK_CODE=12440100741854396C3442014055017')
-#
-# ))
-#
