@@ -28,7 +28,8 @@ def post_task_id():
 def get_task_info(res):
     info = res['AUDIT_ITEM']
     data = {
-        'matter_name': info['CATANAME']
+        'matter_name': info['CATANAME'],
+        'matter_AREA_CODE_TEXT': info['AREA_CODE_TEXT']
     }
 
     return data
